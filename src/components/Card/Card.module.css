@@ -1,9 +1,7 @@
-
-
-.div{
+.div {
   width: 18vw;
-  height: 18vw;
-  background-color: rgb(177, 173, 70);
+  height: 22vw;
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,70 +9,49 @@
   position: relative;
   border-radius: 0.4rem;
   margin: 0.5rem;
-  /* ... El resto de tu CSS ... */
-
-.div {
-  /* ... Tu código anterior ... */
-
-  /* Agregar las siguientes líneas para la animación */
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border: 2px solid #000; /* Bordes negros */
 }
 
-/* Agregar un efecto al pasar el mouse sobre la tarjeta */
+
 .div:hover {
-  transform: scale(1.05) rotateY(180deg);
-  background-color: rgb(207, 203, 100); /* Cambiar el color de fondo al pasar el mouse */
+  background-color: rgb(155, 73, 222); /* Cambiar el color de fondo al pasar el mouse */
+  border-color: #fff; /* Cambiar el color del borde al pasar el mouse */
 }
 
-/* ... El resto de tu CSS ... */
-
-}
-
-.name{
+.name {
   font-size: 0.8em;
   position: absolute;
   bottom: 10vh;
   left: 1vw;
-  background-color: rgb(230, 233, 200);
+  background-color: rgb(246, 239, 35);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
   width: 10vw;
+  color: #000000; /* Letras negras */
 }
 
-.image{
+.image {
   width: 100%;
+  border-radius: 0.6rem;
 }
 
-.btn{
-  background-color: rgb(243, 52, 253);
-  color: black;
+.btn {
+  background-color: rgb(0, 0, 0);
+  color: #fff; /* Letras blancas */
   position: absolute;
   top: 0;
   right: 0;
   border: none;
-  width: 1.0vw;
-  height: 3vh;
+  width: 3.0vw;
+  height: 5vh;
   cursor: pointer;
 }
 
-.data{
+.data {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  padding:1%;
+  color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -48,4 +48,14 @@
     color: red;
     margin: 5px 0;
   }
+
+  button{
+    background-color: rgba(237, 217, 36, 0.8);
+    border-radius: 0.3rem;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold; 
+  }
   

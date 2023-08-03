@@ -1,16 +1,41 @@
-.div{
+.div {
     width: 100vw;
     height: 92vh;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start; /* Alineamos las cartas hacia la izquierda */
+    gap: 1rem; /* Espacio entre elementos */
+  
 }
+  
 
-
-
-
-
-
-
-
+  
+  
+  /* Estilo del botón de cerrar */
+  .btn-close {
+    /* Estilo anterior */
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  
+    /* Transición de opacidad al pasar el mouse */
+    transition: opacity 0.3s ease;
+  }
+  
+  .btn-close:hover {
+    /* Cambiar opacidad al pasar el mouse */
+    opacity: 0.7;
+  }
+  
