@@ -1,50 +1,51 @@
-/* Estilos para el cuerpo del documento */
-body {
-   margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-     sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
- }
- 
- /* Estilos para el contenedor principal de la aplicación */
- .App {
-   width: 100vw;
-   height: 100vh;
-   text-align: center;
-   background-image: url('../src/image/universe-background-filled-with-stars-and-nebula-free-vector.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
-   justify-content: center; /* Centrar horizontalmente */
-   align-items: center; /* Centrar verticalmente */
-   flex-direction: column; /* Alinear elementos verticalmente */
- }
- 
- /* Estilos para el formulario de login */
- .login-form {
-   width: 300px; /* Ancho del formulario */
-   padding: 20px;
-   background-color: #fff; /* Fondo blanco */
-   border-radius: 5px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
- }
- 
- /* Estilos para los elementos <code> */
- code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-   background-color: #f0f0f0; /* Gris claro */
-   padding: 2px 5px;
-   border: 1px solid #ccc; /* Borde en gris */
-   border-radius: 3px;
- }
- 
- /* Media query para hacer el formulario responsive en pantallas más pequeñas */
- @media screen and (max-width: 600px) {
-   .login-form {
-     width: 90%; /* Cambiar el ancho del formulario en pantallas más pequeñas */
-   }
- }
- 
-
+.App {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url('C:\Users\nanot\Desktop\PI-fertassara\Integration-tassara\front\src\image\fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    flex-direction: column; /* Alineamos los elementos en una columna */
+  }
+  
+  /* Estilos para el contenedor que centrará el formulario */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    width: 60vh;
+    background-color: rgba(138, 43, 226, 0.8);
+    padding: 20px;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 8px rgba(138, 43, 226, 0.2);
+  }
+  
+  /* Estilos para las etiquetas del formulario */
+  form label {
+    color: white;
+  }
+  
+  /* Estilos para los campos de entrada del formulario */
+  form input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los mensajes de error */
+  form p {
+    color: red;
+    margin: 5px 0;
+  }
+  

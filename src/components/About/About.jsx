@@ -1,7 +1,7 @@
 const About = ()=>{
     return(
         <div>
-            <h1>Holis este es el About de Maty!!!</h1>
+            <h1>Rick and Morty</h1>
         </div>
     )
 };

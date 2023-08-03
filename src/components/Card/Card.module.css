@@ -1,3 +1,5 @@
+
+
 .div{
   width: 18vw;
   height: 18vw;
@@ -9,6 +11,23 @@
   position: relative;
   border-radius: 0.4rem;
   margin: 0.5rem;
+  /* ... El resto de tu CSS ... */
+
+.div {
+  /* ... Tu código anterior ... */
+
+  /* Agregar las siguientes líneas para la animación */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Agregar un efecto al pasar el mouse sobre la tarjeta */
+.div:hover {
+  transform: scale(1.05) rotateY(180deg);
+  background-color: rgb(207, 203, 100); /* Cambiar el color de fondo al pasar el mouse */
+}
+
+/* ... El resto de tu CSS ... */
+
 }
 
 .name{

@@ -1,4 +1,3 @@
-/* Estilos para el cuerpo del documento */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,42 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f0f0; /* Gris claro */
-  color: #333; /* Texto en gris oscuro */
-  display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
-  height: 100vh; /* Ocupar el 100% del alto de la ventana */
 }
 
-/* Estilos para el contenedor del formulario */
-.login-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centrar horizontalmente */
-}
-
-/* Estilos para el formulario de login */
-.login-form {
-  width: 300px; /* Ancho del formulario */
-  padding: 20px;
-  background-color: #fff; /* Fondo blanco */
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-}
-
-/* Estilos para los elementos <code> */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  background-color: #f0f0f0; /* Gris claro */
-  padding: 2px 5px;
-  border: 1px solid #ccc; /* Borde en gris */
-  border-radius: 3px;
-}
-
-/* Media query para hacer el formulario responsive en pantallas más pequeñas */
-@media screen and (max-width: 600px) {
-  .login-form {
-    width: 90%; /* Cambiar el ancho del formulario en pantallas más pequeñas */
-  }
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

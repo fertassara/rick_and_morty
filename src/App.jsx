@@ -8,11 +8,11 @@ import About from './components/About/About';
 import Detail from './components/Detail/Detail';
 import Form from './components/Forms/Form';
 import Favorites from './components/Favorites';
-const EMAIL = 'fertassara@live.com';
+const EMAIL = 'nanotassara@live.com';
 const PASSWORD = '123456a';
 
 const URL_BASE = 'https://rickandmortyapi.com/api/character';
-const API_KEY_MATY = 'key=henrym-fertassara';
+const API_KEY_MATY = 'key=henrym-fertassara'
 
 
 function App() {
