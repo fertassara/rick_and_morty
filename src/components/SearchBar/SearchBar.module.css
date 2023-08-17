@@ -1,6 +1,6 @@
 .div{
-    width: 60vh;
-    height: 8vh;
+    width: 65vh;
+    height: 10vh;
     background-color: grey;
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@
     width: 60%;
     height: 30px;
     border-radius: 0.4rem;
-    border: 2px solid #33A1DE; /* Color del borde */
+    border: 5px solid #33A1DE; /* Color del borde */
     padding-left: 3rem;
     background-image: url('ruta/de/la/imagen/rick_and_morty.png'); /* Ruta de la imagen */
     background-repeat: no-repeat;
@@ -33,24 +33,29 @@
     width: 10vw;
     height: 6vh;
     border-radius: 0.3rem;
-    background-color: rgb(255, 255, 97);
+    background-color: rgb(237, 217, 36, 0.8);
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
-.btn:hover{
-    width: 9vw;
-    height: 5vh;
-    transition: 0.4s;
-    }
-
-button{
-    background-color: rgba(237, 217, 36, 0.8);
-    border-radius: 0.3rem;
-    border: none;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: rgba(10, 9, 9, 0.8);
-    font-weight: bold; 
-    }
+.btn:hover {
+width: 9vw;
+height: 9vh;
+background-color: rgba(64, 18, 156, 0.8);
+}
+/* Estilos para los botones */
+button {
+  background-color: rgba(237, 217, 36, 0.8);
+  border-radius: 0.8rem;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgba(10, 9, 9, 0.8);
+  font-weight: bold;
+  display: inline-block; /* Cambiar a "inline-block" si se desean botones en línea */
+  width: 100%; /* O ajusta el ancho deseado */
+}

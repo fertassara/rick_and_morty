@@ -3,6 +3,7 @@ import Card from './Card/Card';
 import { filterCards,orderCards } from '../Redux/action';
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
+import style from './Favorites.module.css'
 
 const Favorites = ({myFavorites})=>{
     const dispatch = useDispatch();
@@ -18,7 +19,7 @@ const Favorites = ({myFavorites})=>{
     };
 
     return(
-        <div>
+        <div classname = {style.containerfav}>
             <select onChange={handleOrder}>
                 <option value="A">Ascendente</option>
                 <option value="D">Desendente</option>
@@ -32,6 +33,7 @@ const Favorites = ({myFavorites})=>{
             </select>
 
             <h1>Mis favoritos!</h1>
+            <div className={style.divfav}>
             {
                 myFavorites.length && 
                 myFavorites.map(({id, name,status, species,origin,image,gender, onClose})=>{
@@ -49,7 +51,7 @@ const Favorites = ({myFavorites})=>{
                         />
                     )
                 })
-            }
+            }</div>
         </div>
     )
 };

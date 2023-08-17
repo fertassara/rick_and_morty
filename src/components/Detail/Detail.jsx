@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-const URL_BASE = 'https://rym2-production.up.railway.app/api/character';
-const API_KEY_MATY = 'key=henrym-hx-mantunez'
+const URL_BASE = 'ttp://localhost:3001/rickandmorty/character/${id}';
+const API_KEY_FER= 'key=henrym-fertassara'
 
 const Detail = ()=>{
 
@@ -11,7 +11,7 @@ const Detail = ()=>{
     const [character, setCharacter] = useState({});
 
     useEffect(() => {
-        axios(`${URL_BASE}/${id}?${API_KEY_MATY}`)
+        axios(`${URL_BASE}/${id}?${API_KEY_FER}`)
         .then(({ data }) => {
            if (data.name) {
               setCharacter(data);

@@ -11,8 +11,8 @@ import Favorites from './components/Favorites';
 const EMAIL = 'nanotassara@live.com';
 const PASSWORD = '123456a';
 
-const URL_BASE = 'https://rickandmortyapi.com/api/character';
-const API_KEY_MATY = 'key=henrym-fertassara'
+const URL_BASE = 'http://localhost:3001/rickandmorty/character';
+const API_KEY_FER = 'key=henrym-fertassara'
 
 
 function App() {

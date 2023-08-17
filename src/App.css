@@ -2,9 +2,6 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background-image: url('C:\Users\nanot\Desktop\PI-fertassara\Integration-tassara\front\src\image\fondo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center; /* Centramos horizontalmente */
     align-items: center; /* Centramos verticalmente */
@@ -22,7 +19,7 @@
   /* Estilos para el formulario */
   form {
     width: 60vh;
-    background-color: rgba(138, 43, 226, 0.8);
+    background-color: rgba(25, 7, 48, 0.8);
     padding: 20px;
     border-radius: 0.3rem;
     box-shadow: 0 4px 8px rgba(138, 43, 226, 0.2);
@@ -59,3 +56,9 @@
     font-weight: bold; 
   }
   
+  /* Estilos para el h1 con la clase "titulo" */
+.titulo {
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+}

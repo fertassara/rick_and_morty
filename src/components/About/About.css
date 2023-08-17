@@ -1,0 +1,10 @@
+.h1 {
+  background-color: rgba(0, 0, 0, 0.7); /* Color de fondo oscuro transparente */
+  color: white; /* Texto blanco */
+  font-size: 24px;
+  text-align: center;
+  padding: 20px; /* Espacio alrededor del contenido */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+

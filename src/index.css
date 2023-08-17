@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('C:\Users\nanot\Desktop\FER IT\PI-fertassara\Integration-tassara\client\src\image\fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
